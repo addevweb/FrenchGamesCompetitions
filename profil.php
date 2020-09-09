@@ -13,6 +13,7 @@ if(isset($_GET['id']) AND $_GET['id'] > 0)
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet" type="text/css" href="">
 	<title>Profil</title>
 	<meta charset="utf-8">
 </head>

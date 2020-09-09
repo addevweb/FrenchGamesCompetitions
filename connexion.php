@@ -35,7 +35,7 @@ if(isset($_POST['fromconnexion']))
 <html>
 <head>
 	<title>Connexion</title>
-	 <link rel="stylesheet" type="text/css" href="CCSconnexion.css">
+	 <link rel="stylesheet" type="text/css" href="CSSconnexion.css">
 	<meta charset="utf-8">
 </head>
 <body>

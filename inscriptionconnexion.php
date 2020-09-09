@@ -70,7 +70,7 @@ if(isset($_POST['forminscription']))
 <head>
 	<title></title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="CCSconnexion.css">
+	<link rel="stylesheet" type="text/css" href="CSSconnexion.css">
 </head>
 <body>
 	<div align="center">	
@@ -80,7 +80,7 @@ if(isset($_POST['forminscription']))
 		<table>
 			<tr>
 				<td align="right">
-					<label for="pseudo">Pseudo :</label>
+					<label for="pseudo" style="color: #fff">Pseudo :</label>
 				</td>
 				<td>				
 					<input type="text" placeholder="Votre pseudo" id="pseudo" name="pseudo" value="<?php if(isset($pseudo)) { echo $pseudo; }?>" />
@@ -88,7 +88,7 @@ if(isset($_POST['forminscription']))
 			</tr>
 			<tr>
 				<td align="right">
-					<label for="mail">Mail :</label>
+					<label for="mail" style="color: #fff">Mail :</label>
 				</td>
 				<td>				
 					<input type="email" placeholder="Votre mail" id="mail" name="mail" value="<?php if(isset($mail)) { echo $mail; }?>"/>
@@ -96,7 +96,7 @@ if(isset($_POST['forminscription']))
 			</tr>
 			<tr>
 				<td align="right">
-					<label for="mail2">Mail de confirmation :</label>
+					<label for="mail2" style="color: #fff">Mail de confirmation :</label>
 				</td>
 				<td>				
 					<input type="email" placeholder="Confirmez votre mail " id="mail2" name="mail2" />
@@ -104,7 +104,7 @@ if(isset($_POST['forminscription']))
 			</tr>
 			<tr>
 				<td align="right">
-					<label for="mdp">Mot de passe :</label>
+					<label for="mdp" style="color: #fff">Mot de passe :</label>
 				</td>
 				<td>				
 					<input type="password" placeholder="Votre mot de passe" id="mdp" name="mdp" />
@@ -112,7 +112,7 @@ if(isset($_POST['forminscription']))
 			</tr>
 			<tr>
 				<td align="right">
-					<label for="mdp2">Confirmation du mot de passe :</label>
+					<label for="mdp2" style="color: #fff">Confirmation du mot de passe :</label>
 				</td>
 				<td>				
 					<input type="password" placeholder="Confirmez votre mdp" id="mdp2" name="mdp2" />
@@ -169,6 +169,7 @@ if(isset($_POST['fromconnexion']))
 }
 
 ?>
+<br /><br />
 <!DOCTYPE html>
 <html>
 <head>
@@ -178,7 +179,7 @@ if(isset($_POST['fromconnexion']))
 <body>
 	<div align="center">	
 	<h2>Connexion</h2>
-	<br /><br /><br />
+	<br /><br />
 	<form method="POST" action="">
 		<input type="text" name="mailconnect" placeholder="Mail" />
 		<input type="password" name="mdpconnect" placeholder="Mot de passe" />

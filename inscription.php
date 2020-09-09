@@ -70,7 +70,7 @@ if(isset($_POST['forminscription']))
 <head>
 	<title></title>
 	<meta charset="utf-8">
-	<link rel="stylesheet" type="text/css" href="CCSconnexion.css">
+	<link rel="stylesheet" type="text/css" href="CSSconnexion.css">
 </head>
 <body>
 	<div align="center">	

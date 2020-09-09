@@ -56,17 +56,18 @@ if(isset($_SESSION['id']))
 	<meta charset="utf-8">
 </head>
 <body>
+	<link rel="stylesheet" type="text/css" href="CSSconnexion.css">
 	<div align="center">	
 	<h2>Edition de mon profil</h2>
-	<div align="left">
+	<div align="center">
 	<form method="POST" action="">
-		<label>Pseudo: </label>
+		<label style="color: #fff">Pseudo: </label>
 		<input type="text" name="newpseudo" placeholder="Pseudo" value="<?php echo $user['pseudo']; ?>" /><br /><br />
-		<label>Mail: </label>
+		<label style="color: #fff">Mail: </label>
 		<input type="text" name="newmail" placeholder="Mail" value="<?php echo $user['mail']; ?>"/><br /><br />
-		<label>Mot de passe: </label>
+		<label style="color: #fff">Mot de passe: </label>
 		<input type="password" name="newmdp1" placeholder="Mot de passe" /><br /><br />
-		<label>Confirmation du mot de passe: </label>
+		<label style="color: #fff">Confirmation du mot de passe: </label>
 		<input type="password" name="newmdp2" placeholder="Confirmez votre mdp" /><br /><br />
 		<input type="submit" value="Mettre a jour mon profil !" />
 	</form>
